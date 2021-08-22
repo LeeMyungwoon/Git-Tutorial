@@ -1,0 +1,17 @@
+명령 프롬프트 명령어
+1) cd 주소값 -> 명령프롬프트에서 이동하고자 하는 주소로 이동하는 명령어
+2) dir -> 현재 있는 주소에서 파일목록 확인하는 명령어 
+깃 명령어
+1) git add 파일명 -> Workong Area(컴퓨터)에서 Staging Area 로 파일을 올릴때 사용하는 명령어
+   (git add . -> : Working Area에서 수정된 모든 파일을 Sraging Area로 올릴때 사용)
+2) git commit -m "message" -> Staging Area에 올라와 있는 파일을 Local Repositary로 올릴때 사용하는 명령어
+3) git push -> Local Repositary에 올라와 있는 파일을 Remote Repositary(깃허브)로 올릴때 사용하는 명령어 
+4) git status -> 현재 파일의 상태를 확인하는 명령어 ex) 수정된 파일이 있는지, Sraging Area에 새로운 파일이 올라와 있는지
+5) git clone 파일위치 -> Working Area에 Remote Repositary에 있는 파일을 가져오는 명령어
+6) git --amend -> commit 했을시, message를 잘못 입력했을때 수정할 수 있는 명령어
+7) git check out --파일명 -> commit하고 난 후, 수정된 파일을 수정전 파일로 변경하는 명령어
+8) git log -> 지금까지의 모든 변경된 commit 내용의 해시값 확인하는 명령어
+9) git reset --hard 해시값 -> 해당 해시값의 주소로의 상황으로 이동하는것
+10) git push -f -> Staging Area와 Remote Repositary에 내용이 다를때 깃허브에 현재 컴퓨터 파일을 강제로 push 할때
+11) git pull -> git feten과 git merge 의 내용 둘다 포함된 명령어, 작업한 데이터를 내 컴퓨터 리포지터리로 가져옴
+
